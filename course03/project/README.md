@@ -1,7 +1,11 @@
-## Analysis package description
-The Analysis package consist of 3 files. They are "run_analysis.R", "CodeBook.md" and this "README.md" itself.
+# Analysis package description
 
-run_analysis.R
+The Analysis package consist of 3 files:
+* run_analysis.R
+* CodeBook.md
+* README.md" itself
+
+##run_analysis.R
 It contains script which performs transformation of raw data to tidy according to these requirements:
 1.Merges the training and the test sets to create one data set.
 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -9,12 +13,13 @@ It contains script which performs transformation of raw data to tidy according t
 4.Appropriately labels the data set with descriptive variable names. 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of 
       each variable for each activity and each subject.
+
 Result tidy data has 68 variables and 180 observations.
 
-CodeBook.md
+##CodeBook.md
 Contains description of variables of tidy data.
 
-## Steps to get tidy data from raw in pseudocode
+# Steps to get tidy data from raw in pseudocode
 
 Step 1 - Set working directory as root of the data set.
          To check it is correct it is necessary to list files of the working directory
