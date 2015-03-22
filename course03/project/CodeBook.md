@@ -1,6 +1,7 @@
 #Study design
 Here is description of raw data which were the base of this data set:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 This data set contains "-mean()" and "-std()" variables from the raw data set with some names improvements. Which may be found at Readme.md. Their amount is 66.
 Two additional variables where computed from raw data and added to this data set under names "subject" and "activity".
 
