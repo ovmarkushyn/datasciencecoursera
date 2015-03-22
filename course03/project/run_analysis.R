@@ -25,10 +25,10 @@ run_analysis <- function(){
     
     # 3.Uses descriptive activity names to name the activities in the data set
     # Read activity ids
-    activityidstst<-read.table("test/y_test.txt")
-    activityidstst<-rbind(activityidstst, read.table("train/y_train.txt"))
+    activityids<-read.table("test/y_test.txt")
+    activityids<-rbind(activityids, read.table("train/y_train.txt"))
     # Add activity id variable
-    tidy<-cbind(tidy, activityidstst)
+    tidy<-cbind(tidy, activityids)
     addedcolumnindex <- length(colnames(tidy))
     colnames(tidy)[addedcolumnindex]="activityid"
     # Read activity names
