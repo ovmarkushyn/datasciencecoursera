@@ -1,3 +1,3 @@
 # datasciencecoursera
 
-![My Figure](figure1.png)
+![My Figure](Rplot01_retenteion.rate.png)
